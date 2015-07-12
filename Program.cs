@@ -41,8 +41,8 @@ namespace zadanie_1_3
                     {
                         if (Matrix[i, j] < min)
                             min = Matrix[i, j];
-                        c = i;
-                        z = j;
+                        c = i+1;
+                        z = j+1;
                     }
                 }
                 Console.WriteLine("Минимальное значение элемента={0}, его позиция в матрице={1},{2}", min, c, z);
